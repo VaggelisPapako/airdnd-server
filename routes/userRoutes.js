@@ -11,6 +11,7 @@ router.get('/getUserById/:id', userController.getUserById)
 router.get('/getUserByUsername/:username', userController.getUserByUsername)
 router.get('/validateToken', userController.validateToken)
 router.get('/decodeToken', userController.decodeToken)
+router.get('/recommend/:id', userController.recommend)
 router.put('/approveUser', userController.approveUser)
 router.put('/updateUser', userController.updateUser)
 

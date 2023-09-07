@@ -7,4 +7,5 @@
 - MySQLWorkbench
 - Postman
 
-Το Config.env.example ειναι το template για όλα τα configurations που είναι επισφαλές να υπάρχουν στο GitHub
+Το Config.env.example ειναι το template για όλα τα configurations που είναι επισφαλές να υπάρχουν στο GitHub.
+Ειναι χρήσιμο να υπάρχουν στο configurations directory τα αρχεία key.pem, csr.pem και cert.pem από τον openssl για να τρέξει η σελίδα στον HTTPS.

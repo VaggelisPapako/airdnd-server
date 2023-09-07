@@ -1,0 +1,5 @@
+[myext]
+basicConstraints = CA:true
+keyUsage = digitalSignature, nonRepudiation, keyEncipherment, dataEncipherment, keyCertSign
+extendedKeyUsage = serverAuth, clientAuth, codeSigning, timeStamping
+subjectAltName = DNS:localhost, DNS:localhost.localdomain, DNS:[::1], IP:127.0.0.1, IP:FE80:0:0:0:0:0:0:1

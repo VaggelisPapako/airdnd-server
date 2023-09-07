@@ -3,6 +3,7 @@ const fs = require('fs');
 const dotenv = require('dotenv');
 dotenv.config()
 
+// updates JWT Secret Key
 const updateKeys = async (req, res) => {
     // Access the JWT_SECRET_KEY value
     const jwtSecretKey = process.env.JWT_SECRET_KEY;
